@@ -1,0 +1,199 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Contacto</title>
+    <link rel="stylesheet" type="text/css" href="../css/styles.css" />
+  </head>
+  <body class="bodycontacto">
+    <link rel="icon" href="../imagenes/gatito.ico" />
+
+    <header>
+      <div class="interior">
+        <input type="checkbox" id="btn-menu" />
+        <label for="btn-menu">
+          <img src="../imagenes/menu-hamburguesa.png" src="hamburguesa" />
+        </label>
+        <div class="logo">
+          <img
+            src="../imagenes/logoorange.png"
+            alt="logo de los gatos"
+            class="imglogo"
+          />
+          <h3 class="h3michis">Michis</h3>
+        </div>
+
+        <nav class="navegacion">
+          <ul>
+            <li><a href="../index.html" class="nav-link">Inicio</a></li>
+            <li><a href="acercade.html" class="nav-link">Acerca de</a></li>
+            <li><a href="contacto.html" class="nav-link">Contacto</a></li>
+            <li class="submenu">
+              <a href="">Gatitos</a>
+              <ul class="hijos">
+                <li>
+                  <a href="gatoprincipe.html" class="nav-cats">Gatito 1</a>
+                </li>
+                <li>
+                  <a href="gataprincesa.html" class="nav-cats">Gatito 2</a>
+                </li>
+                <li>
+                  <a href="gatogordito.html" class="nav-cats">Gatito 3</a>
+                </li>
+                <li><a href="gatogris.html" class="nav-cats">Gatito 4</a></li>
+                <li><a href="gatonegro.html" class="nav-cats">Gatito 5</a></li>
+                <li>
+                  <a href="gatacazadora.html" class="nav-cats">Gatito 6</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="formulario">
+      <form action="">
+        <fieldset>
+          <div class="form-header">
+            <h2 class="form-title">Contacto</h2>
+          </div>
+          <label for="name" class="form-label">Nombre:</label><br />
+          <input
+            type="text"
+            name="nombre"
+            maxlength="30"
+            size="40"
+            placeholder="Ingrese su nombre"
+            class="form-input"
+          />
+          <br />
+          <label for="telefono" class="form-label">Telefono:</label> <br />
+          <input
+            type="text"
+            name="telefono"
+            maxlength="30"
+            size="40"
+            placeholder="Ingrese su telefono"
+            class="form-input"
+          />
+          <br />
+          <label for="email" class="form-label">Email:</label> <br />
+          <input
+            type="text"
+            name="email"
+            maxlength="30"
+            size="40"
+            placeholder="Ingrese su email"
+            class="form-input"
+          />
+          <br />
+          <label for="eleccion" class="form-label"
+            >Gatito de preferencia:</label
+          >
+          <br />
+          <input
+            type="radio"
+            id="orange"
+            name="cat_fav"
+            value="Gatito Naranja"
+            class="form-inputC"
+          />
+          Gatito Naranja <br />
+          <input
+            type="radio"
+            id="princess"
+            name="cat_fav"
+            value="Gatita Princesa"
+            class="form-inputC"
+          />
+          Gatito Mezcladito <br />
+          <input
+            type="radio"
+            id="black"
+            name="cat_fav"
+            value="Gatito Negro"
+            class="form-inputC"
+          />
+          Gatito Negro <br />
+          <input
+            type="radio"
+            id="grey"
+            name="cat_fav"
+            value="Gatito Gris"
+            class="form-inputC"
+          />
+          Gatito Gris <br />
+          <input
+            type="radio"
+            id="cazadora"
+            name="cat_fav"
+            value="Gatita Mezcladito Oscuro"
+            class="form-inputC"
+          />Gatita Mezcladito Oscuro <br />
+          <label for="experience" class="form-label"
+            >Contanos sobre tu experiencia con los gatos:</label
+          ><br />
+          <textarea
+            name="mensaje"
+            rows="5"
+            cols="40"
+            class="form-textarea"
+          ></textarea>
+          <br />
+          <label for="numero" class="form-label"
+            >Cantidad exacta de mascotas en casa:</label
+          ><br />
+          <input
+            type="number"
+            name="cantidad"
+            min="0"
+            max="10"
+            class="form-input"
+          /><br />
+          <label for="animalinhome" class="form-label">Animales en casa:</label
+          ><br />
+          <input
+            type="checkbox"
+            name="gato"
+            value="gatos"
+            class="form-inputC"
+          />Gatos<br />
+          <input
+            type="checkbox"
+            name="perro"
+            value="perros"
+            class="form-inputC"
+          />Perros <br />
+          <input
+            type="checkbox"
+            name="otro"
+            value="otro"
+            class="form-inputC"
+          />Otro <br />
+
+          <label for="numero" class="form-label">Barrio:</label><br />
+          <select>
+            <option>Seleccione</option>
+            <option>Retiro</option>
+            <option>Buenos Aires</option>
+            <option>Palermo</option>
+            <option>Almagro</option>
+            <option>Parque Avellaneda</option>
+            <option>Puerto Madero</option>
+            <option>Recoleta</option>
+            <option>Balvanera</option>
+            <option>San Nicolas</option>
+            <option>Constitución</option>
+            <option>Villa Crespo</option>
+          </select>
+          <br />
+          <label for="numero" class="form-label"
+            >Fecha preferida para entrevista:</label
+          ><br />
+          <input type="date" name="fecha" class="form-input" /> <br />
+          <input type="submit" value="Enviar" name="submit" /> <br />
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>
